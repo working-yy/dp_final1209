@@ -1,0 +1,232 @@
+@-webkit-keyframes slide-1 {
+  0% {
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
+  }
+
+
+
+  100%{
+  	-webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+html{
+	cursor: url(cursor.png), auto;
+}
+
+.info{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top:-40px;
+	
+	
+}
+
+.back{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	
+	
+}
+
+.box1{
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top:290px;
+	left:5%;
+
+	-webkit-animation: slide-1 3s ease-in-out infinite alternate both;
+
+	        		
+	
+}
+
+.box2{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:290px;
+	left:25%;
+	-webkit-animation: slide-1 3s ease-in-out 0.5s infinite alternate both;
+	
+}
+.box3{
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top:290px;
+	left:45%;
+	-webkit-animation: slide-1 3s ease-in-out 1s infinite alternate both;
+	
+	
+}
+.box4{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:290px;
+	left:65%;
+	-webkit-animation: slide-1 3s ease-in-out 1.5s infinite alternate both;
+	
+}
+.box5{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:290px;
+	left:85%;
+	-webkit-animation: slide-1 3s ease-in-out 2s infinite alternate both;
+	
+	
+}
+
+.box6{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:150px;
+	left:70%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	
+}
+
+
+.box7{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:80px;
+	left:60%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box8{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:120px;
+	left:40%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box9{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:300px;
+	left:13%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box10{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:400px;
+	
+		-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box11{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:500px;
+	left:10%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+.box12{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:450px;
+	left:30%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+.box13{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:550px;
+	left:50%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box14{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:500px;
+	left:80%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box15{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:645px;
+	left:23%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+.box16{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:625px;
+	left:73%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+.box17{
+	width:10%;
+	height: 10%;
+	position: absolute;
+	top:250px;
+	left:94%;
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	}
+
+
+
